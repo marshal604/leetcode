@@ -116,3 +116,22 @@ var removeElement2 = function (nums, val) {
 上面的`swap`，是不用變數`temp`來做交換，類似二元一次的加減法，然後這邊多一個判斷是`i`跟`pos`不相等時才會交換，不然這個會因為都是同一個 reference 而導致結果有誤，以上的結果
 時間複雜度為 O(n)，雖然跑兩個 for，不過總體來說都是跑 n 次
 空間複雜度一樣只有創建`pos`一次，所以是 O(1)
+
+## Conclusion
+
+後來去看了一下最佳解是
+
+```javascript
+var removeElement = function (nums, val) {
+    int i = 0;
+    for (int j = 0; j < nums.length; j++) {
+        if (nums[j] != val) {
+            nums[i] = nums[j];
+            i++;
+        }
+    }
+    return i;
+}
+```
+
+這個解法在一開始的思路有出現，但好像某個環節卡住了，所以多了 swap 這一個步驟
