@@ -38,7 +38,7 @@ Constraints:
 1 <= nums.length <= 500
 1 <= nums[i] <= 10^5
 
-## Brain Storming
+## BrainStorming
 
 給一個整數陣列並將是偶數位數的個數回傳，基本上會以一個 for 把內容變成字串，然後以長度來看是不是符合偶數位數
 

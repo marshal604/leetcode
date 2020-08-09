@@ -22,7 +22,7 @@ Note:
 -10000 <= A[i] <= 10000
 A is sorted in non-decreasing order.
 
-## Brain Storming
+## BrainStorming
 
 給整數遞增排序的陣列 A，回傳每個數字平方後的遞增排序陣列
 

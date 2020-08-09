@@ -24,7 +24,7 @@ Your function should return length = 5, with the first five elements of nums bei
 It doesn't matter what values are set beyond the returned length.
 ```
 
-## Brain Storming
+## BrainStorming
 
 一樣先理解一下問題
 題目說會給一個排序過的陣列，然後要我們在陣列中把重複的數值直接**去掉**，接著在最後回傳陣列的長度，並且限制我們的空間複雜度要是 O(1)
